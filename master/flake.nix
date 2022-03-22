@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-wZeeGrid-master.flake = false;
+  inputs.src-wZeeGrid-master.ref   = "refs/heads/master";
   inputs.src-wZeeGrid-master.owner = "bunkford";
-  inputs.src-wZeeGrid-master.ref   = "master";
   inputs.src-wZeeGrid-master.repo  = "wZeeGrid";
   inputs.src-wZeeGrid-master.type  = "github";
   
